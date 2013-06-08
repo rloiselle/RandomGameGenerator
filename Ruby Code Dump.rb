@@ -13,7 +13,7 @@ def ask_recursively question
 					puts "Please start again and no numbers"
 					ask_recursively
 				else
-
+					array_of_words_entered << word
 				end
 			true
 		elsif answer == 'no'
